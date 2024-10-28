@@ -52,6 +52,15 @@ Interactive Actions and/or Examples
 ## Summary
 By the end of this session, you will have a clear understanding of how to integrate various components to achieve complex robotic tasks.
 
+## Making use of multiple simulators
+- Using PyCRAM abstract world it is possible to integrate any simulator with the CRAM system easily without chaning the 
+ API of PyCRAM from the user side.
+- Using Multiverse integration with PyCRAM, it is possible to use multiple simulators at the same time leveraging the
+ capabilities of each simulator during the execution of the task.
+
+- For example in the task of transporting the milk from the fridge to the table, one can use the rigid body physics from
+ Mujoco to simulate the gripping force and the slipping of the milk bottle while carrying it.
+
 ## For Entering the next Day click here: <a class="btn btn-success" target="_blank" href="day5/"><b>Day 5!</b></a>
 
 ## Further Reading/Exercises
